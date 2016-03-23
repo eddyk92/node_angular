@@ -9,6 +9,8 @@ var routes = require('./routes/index');
 
 var books = require('./api/books');
 var authors = require('./api/authors');
+// var users = require('./api/users');
+// var spending = require('./api/spending');
 
 var app = express();
 
@@ -28,6 +30,8 @@ app.use('/', routes);
 
 app.use('/api/books/', books);
 app.use('/api/authors/', authors);
+// app.use('/api/users', users);
+// app.use('/api/spening', spending);
 
 
 

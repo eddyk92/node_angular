@@ -1,0 +1,31 @@
+body{
+	background-color: #155e9d;
+}
+.nav-wrapper{
+	height: 70px;
+	background-color: #39ec2d;
+}
+.logo{
+	height: 70px;
+	margin-left: 5px;
+}
+.row{
+	margin-bottom: 0px;
+}
+#signup{
+	padding-right: 82%;
+}
+#img {
+	position: relative;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+}
+h3{
+	font: white;
+	text-align: center;
+	z-index: 10;
+}
+.modal{
+	background-color: #39ec2d;
+}

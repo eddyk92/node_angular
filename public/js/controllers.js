@@ -3,6 +3,6 @@ app.controller('LibraryController', ['$scope', 'authorService', function($scope,
   authorService.getAuthors().then(function(data) {
     $scope.authors = data
   });
-  console.log($scope.authors, "SIUSGISGIHSIHS");
+  console.log($scope.authors, "mainController");
 }])
 
