@@ -1,9 +1,8 @@
 
-<!-- js link -->
-  <script src="./js/dashboard.js"></script>
-
 <!-- CSS -->
   <link rel="stylesheet" href="./css/dashboard.css">
+<!-- angular chart.js css -->
+  <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
 
   <title>SpndHappi</title>
 </head>
@@ -53,6 +52,30 @@
   
   </div>
 
+<!-- select quiz result -->
+<!-- Dropdown Trigger -->
+<a class='dropdown-button btn' href='javascript:void(0);' data-activates='demoDropdown' dropdown data-hover="true">
+    This is a dropdown
+</a>
 
+<!-- Dropdown Structure -->
+<ul id='demoDropdown' class='dropdown-content' ng-model="select.value1">
+    <li value="simple">Simple Life</a></li>
+    <li value="adventure">Adventure & Fun</a></li>
+    <li value="friends">Friends & Fun</a></li>
+    <li value="rich">Work Hard, Play Hard</a></li>
+</ul>
+  <h5 class="result">Your result is {{ value1 }}</h5>
+
+<!-- input goals -->
+<!-- <div input-field class="col s6 center">
+    <input type="text" ng-model="dummyInputs.inputFieldInput" length="150">
+    <label>Input label</label>
+</div> -->
+
+<!-- pie chart result -->
+  <canvas id="pie" class="chart chart-pie"
+  chart-data="data" chart-labels="labels">
+</canvas> 
 
 </body>

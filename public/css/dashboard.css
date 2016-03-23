@@ -29,3 +29,9 @@ h3{
 .modal{
 	background-color: #39ec2d;
 }
+.result{
+	text-align: right;
+	margin-top: -15px;
+	margin-right: 20px;
+	color: white;
+}

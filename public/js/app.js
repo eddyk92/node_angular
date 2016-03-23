@@ -1,4 +1,4 @@
-var app = angular.module("libraryApp",["ngRoute"]);
+var app = angular.module("libraryApp",["ngRoute", 'ui.materialize']);
 
 app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
@@ -18,3 +18,4 @@ app.config(['$routeProvider', function($routeProvider) {
     })
 }])
 
+// , "ui.materialize", "chart.js"
